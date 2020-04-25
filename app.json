@@ -23,7 +23,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "ejected-firebase"
+    },
+    "android": {
+      "package": "ejected-firebase"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }

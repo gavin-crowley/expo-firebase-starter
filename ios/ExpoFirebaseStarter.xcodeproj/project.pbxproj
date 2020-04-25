@@ -144,7 +144,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ExpoFirebaseStarter" */;
@@ -278,8 +278,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ExpoFirebaseStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = "ejected-firebase";
+				PRODUCT_NAME = ejected-firebase;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -297,8 +297,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ExpoFirebaseStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = "ejected-firebase";
+				PRODUCT_NAME = ejected-firebase;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -353,6 +353,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				PRODUCT_BUNDLE_IDENTIFIER = "ejected-firebase";
+				PRODUCT_NAME = ejected-firebase;
 			};
 			name = Debug;
 		};
@@ -399,6 +401,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ejected-firebase";
+				PRODUCT_NAME = ejected-firebase;
 			};
 			name = Release;
 		};
