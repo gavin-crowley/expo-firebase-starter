@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { AppLoading } from "expo";
+// import * as SplashScreen from 'expo-splash-screen';
 import { Asset } from "expo-asset";
 import * as Font from "expo-font";
 import * as Icon from "@expo/vector-icons";
 import { withFirebaseHOC } from "../config/Firebase";
+
 
 function Initial({ navigation, firebase }) {
   const [isAssetsLoadingComplete, setIsAssetsLoadingComplete] = useState(false);
@@ -24,6 +26,8 @@ function Initial({ navigation, firebase }) {
     } catch (error) {
       console.log(error);
     }
+
+
   }, []);
 
   async function loadLocalAsync() {
